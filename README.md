@@ -2,7 +2,7 @@
 
 This API receive a JSON file representing a job application, and compares the answers given in the job application to desired answers stored in AzureSQL. If the job application answers all questions satisfactorily, the job application JSON is stored in the AzureSQL database and can be retrieved later.
 
-## running the API locally
+## Running the API locally
 
 The API can be run locally using Visual Studio on a Windows machine with IIS enabled and .Net framework 4.7.2
 
