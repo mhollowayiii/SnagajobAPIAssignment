@@ -16,6 +16,8 @@ The API currently supports only GET and POST.
 
 ### GET
 
+Retrieves all applications that answered questions satisfactorily.
+
 #### Request:
 
     GET /api/values HTTP/1.1
@@ -26,6 +28,8 @@ The API currently supports only GET and POST.
     ["{\"Name\":\"TestApplicant1\",\"Questions\":[{\"Id\":1,\"Answer\":\"Answer 1\"},{\"Id\":2,\"Answer\":\"Answer 2\"}]}","{\"Name\":\"TestApplicant2\",\"Questions\":[{\"Id\":1,\"Answer\":\"Answer 1\"},{\"Id\":2,\"Answer\":\"Answer 2\"}]}"]
     
 ### POST
+
+Stores the application if it answers questions satisfactorily.
 
 #### Request:
 
