@@ -1,6 +1,6 @@
 # SnagajobAPIAssignment API Application
 
-This API receive a JSON file representing a job application, and compares the answers given in the job application to desired answers stored in AzureSQL. If the job application answers all questions satisfactorily, the job application JSON is stored in the AzureSQL database and can be retrieved later.
+This ASP.NET API receives a JSON file representing a job application, and compares the answers given in the job application to desired answers stored in AzureSQL. If the job application answers all questions satisfactorily, the job application JSON is stored in the AzureSQL database and can be retrieved later.
 
 ## Running the API locally
 
